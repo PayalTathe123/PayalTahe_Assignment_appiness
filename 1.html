@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    :root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+
+body {
+  background: #ffffff;
+  background: linear-gradient(to right, #ffffff, #ffffff);
+}
+
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  
+}
+
+.card-signin {
+  width: 105%;
+  /* Link to your background image using in the property below! */
+  background: scroll center url('https://source.unsplash.com/WEQbe2jBg40/414x512');
+  background-size: cover;
+  /* width: 81%; 
+  height: 500px;" */
+}
+.card-signin1 {
+  width: 100%;
+  /* Link to your background image using in the property below! */
+  background: #ffffff;
+  background-size: cover;
+  /* width: 81%; 
+  height: 500px;" */
+  /* padding: 80px; */
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+
+}
+.card-body1 {
+  /* border: 1px solid #eae6e6; */
+  box-shadow: 4px 4px rgb(231, 229, 229);
+
+}
+.card-signin1 .fa-cloud {
+  color: #31c331;
+  font-size: 40px;
+
+}
+.card-signin1 .greycolor{
+  color: #8d918d;
+}
+
+.form-signin {
+  width: 45%;
+  
+}
+
+.form-signin .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group input {
+  height: auto;
+  border-radius: 2rem;
+}
+
+.form-label-group>input,
+.form-label-group>label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group>label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown)~label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  font-size: 12px;
+  color: #777;
+}
+
+.btn-google {
+  color: white;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: #3b5998;
+}
+
+
+
+      #grad1 {
+  height: 74px;
+ background-image: linear-gradient(to right, skyblue, rgb(137, 137, 231));
+    padding: 20px;
+    width: 600px;
+}
+.doctor{
+  font-size: 30px;
+    color: #31c331;
+    font-weight: 600;
+}
+.namecolor{
+  color: #31c331;
+}
+.namecolor1{
+  color: #3175c3;
+  font-weight: bold;
+}
+.namecolor2{
+  color: #afcef1;
+}
+.height55px{
+  height: 55px;
+}
+.colorBlue{
+  color: #3175c3;
+}
+.blackcolor{
+  color: black;
+  font-weight: 900;
+}
+.special-color-dark{
+  background-color: rgb(184, 179, 179);
+}
+.width465px{
+  width: 400px;
+  margin-left: 267px;
+}
+  </style>
+</head>
+<body>
+
+<!-- <div class="container-fluid text-center">
+  <img src="/home/p-latitude-e7450/Interview/appiness Ass/images (1).jpeg" class="img-fluid" alt="Responsive image" style="width: 81%; height: 500px;">
+</div>
+<div class="container-fluid text-center"> &nbsp; </div>
+<div class="container-fluid text-center"> &nbsp; </div> -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 col-xl-12 mx-auto">
+      <div class="card card-signin flex-row my-5">
+        <div class="card-img-left d-none d-md-flex">
+           <!-- Background image for card set in CSS! -->
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-left">Enquire now</h5>
+          <form class="form-signin">
+            <div class="form-label-group">
+              <input type="text" id="inputUserame" class="form-control" placeholder="Name" required autofocus>
+              <label for="inputUserame">Name</label>
+            </div>
+
+            <div class="form-label-group">
+              <input type="email" id="inputEmail" class="form-control" placeholder="Email ID" required>
+              <label for="inputEmail">Email ID</label>
+            </div>
+            
+            <hr>
+
+            <div class="form-label-group">
+              <input type="number" id="inputPassword" class="form-control" placeholder="Phone number" required>
+              <label for="inputPassword">Phone number</label>
+            </div>
+            
+            <div class="form-label-group">
+              <textarea type="text" id="inputConfirmPassword" class="form-control" placeholder="Your Message" required></textarea>
+              <!-- <label for="inputConfirmPassword">Your Message</label> -->
+            </div>
+
+            <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Submit</button>
+            <a class="d-block text-center mt-2 small" href="#">Sign In</a>
+            <hr class="my-4">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="card-img" src="https://material.angular.io/assets/img/examples/shiba1.jpg" alt="Card image" style="height: 390px; width: 450px;"/>
+      </div>
+      <div class="col-sm-6">
+        <div class="card-body-right">
+          <div id="grad1" style="text-align:center;margin:auto;color:#000;font-size:20px;font-weight:bold">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </div>
+            <div style="text-align:center;margin:auto;font-size:20px;line-height: 80px; border-bottom: 1px solid rgb(226, 226, 226);">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
+              </div>
+              <div style="text-align:center;margin:auto;font-size:20px;line-height: 80px; border-bottom: 1px solid rgb(226, 226, 226);">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                </div>
+                <div style="text-align:center;margin:auto;font-size:20px;line-height: 80px;">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  </div>
+        </div>
+         </div>
+      </div> 
+      
+    </div>
+    <div class="container-fluid text-center"> &nbsp; </div>
+    <div class="container text-left doctor"> Doctors </div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 flex-wrap">
+      <h3 class="text-center namecolor">Pediatric BMT</h3>
+      <h3 class="text-center"><img class="card-img" src="/home/p-latitude-e7450/Interview/appiness Ass/images3.jpg" alt="Card image" style="height: 194px; width: 294px;"/></h3>
+      <h3 class="text-center namecolor1">Dr. Vijay Agrawal</h3>
+      <h6 class="text-center namecolor2">MD. MRCP. PhD.CCT <br> Lead & Sr. Consultant - Medical Oncology & Haematology</h6>
+      <h6 class="text-center" style="border: 1px solid #afcef1;"> </h6>
+      <h6 class="text-center">Dr Vijay is a Senior Consultant Medical oncologist with over 12 years of experience in oncology Dr. Agrawal has been practising Medical Oncology since 2004</h6>
+    </div>
+    <div class="col-sm-6 flex-wrap">
+      <h3 class="text-center namecolor">Adult BMT</h3>
+      <h3 class="text-center"><img class="card-img" src="/home/p-latitude-e7450/Interview/appiness Ass/images3.jpg" alt="Card image" style="height: 194px; width: 294px;"/></h3>
+      <h3 class="text-center namecolor1">Dr. Vijay Agrawal</h3>
+      <h6 class="text-center namecolor2">MD. MRCP. PhD.CCT <br> Lead & Sr. Consultant - Medical Oncology & Haematology</h6>
+      <h6 class="text-center" style="border: 1px solid #afcef1;"> </h6>
+      <h6 class="text-center">Dr Vijay is a Senior Consultant Medical oncologist with over 12 years of experience in oncology Dr. Agrawal has been practising Medical Oncology since 2004</h6>
+    </div>
+  </div>
+</div>
+<div class="container-fluid text-center"> &nbsp; </div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 flex-wrap">
+      <h3 class="text-center namecolor">Pediatric BMT</h3>
+      <p class="text-center"><img class="card-img" src="/home/p-latitude-e7450/Interview/appiness Ass/images3.jpg" alt="Card image" style="height: 194px; width: 294px;"/></p>
+      <h3 class="text-center namecolor1">Dr. Vijay Agrawal</h3>
+      <h6 class="text-center namecolor2">MD. MRCP. PhD.CCT <br> Lead & Sr. Consultant - Medical Oncology & Haematology</h6>
+      <h6 class="text-center" style="border: 1px solid #afcef1;"></h6>
+      <h6 class="text-center">Dr Vijay is a Senior Consultant Medical oncologist with over 12 years of experience in oncology Dr. Agrawal has been practising Medical Oncology since 2004</h6>
+    </div>
+    <div class="col-sm-6 flex-wrap">
+      <h3 class="text-center namecolor">Adult BMT</h3>
+      <h3 class="text-center"><img class="card-img" src="/home/p-latitude-e7450/Interview/appiness Ass/images3.jpg" alt="Card image" style="height: 194px; width: 294px;"/></h3>
+      <h3 class="text-center namecolor1">Dr. Vijay Agrawal</h3>
+      <h6 class="text-center namecolor2">MD. MRCP. PhD.CCT <br> Lead & Sr. Consultant - Medical Oncology & Haematology</h6>
+      <h6 class="text-center" style="border: 1px solid #afcef1;"></h6>
+      <h6 class="text-center">Dr Vijay is a Senior Consultant Medical oncologist with over 12 years of experience in oncology Dr. Agrawal has been practising Medical Oncology since 2004</h6>
+    </div>
+  </div>
+</div>
+<div class="container-fluid text-center"> &nbsp; </div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1 class="doctor">What are the types of Bone Marrow Transplant?</h1>
+      <ul style="list-style-type:square;">
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+      </ul>
+      
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1 class="doctor ">The warning signs of immune deficiency</h1>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3 col-xl-3 mx-auto">
+      <div class="card card-signin1 flex-row my-5">
+        <div class="card-img-left d-none d-md-flex">
+           <!-- Background image for card set in CSS! -->
+        </div>
+        <div class="card-body">
+          <i class="fas fa-cloud"></i><br><br>
+          <p class="greycolor">Failure to thrive-not gaining weight and height as per the age norms</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-xl-3 mx-auto">
+      <div class="card card-signin1 flex-row my-5">
+        <div class=" d-none d-md-flex">
+           <!-- Background image for card set in CSS! -->
+           
+        </div>
+        <div class="card-body">
+          <i class="fas fa-cloud"></i><br><br>
+          <p class="greycolor">Failure to thrive-not gaining weight and height as per the age norms</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-xl-3 mx-auto">
+      <div class="card card-signin1 flex-row my-5">
+        <div class="d-none d-md-flex">
+           <!-- Background image for card set in CSS! -->
+        </div>
+        <div class="card-body">
+          <i class="fas fa-cloud"></i><br><br>
+          <p class="greycolor">Failure to thrive-not gaining weight and height as per the age norms</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-xl-3 mx-auto">
+      <div class="card card-signin1 flex-row my-5">
+        <div class="card-img-left d-none d-md-flex">
+           <!-- Background image for card set in CSS! -->
+        </div>
+        <div class="card-body">
+          <i class="fas fa-cloud"></i><br><br>
+          <p class="greycolor">Failure to thrive-not gaining weight and height as per the age norms</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-xl-3 mx-auto">
+      <div class="card card-signin1 flex-row my-5">
+        <div class="card-img-left d-none d-md-flex">
+           <!-- Background image for card set in CSS! -->
+        </div>
+        <div class="card-body">
+          <i class="fas fa-cloud"></i><br><br>
+          <p class="greycolor">Failure to thrive-not gaining weight and height as per the age norms</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-xl-3 mx-auto">
+      <div class="card card-signin1 flex-row my-5">
+        <div class=" d-none d-md-flex">
+           <!-- Background image for card set in CSS! -->
+           
+        </div>
+        <div class="card-body">
+          <i class="fas fa-cloud"></i><br><br>
+          <p class="greycolor">Failure to thrive-not gaining weight and height as per the age norms</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-xl-3 mx-auto">
+      <div class="card card-signin1 flex-row my-5">
+        <div class="d-none d-md-flex">
+           <!-- Background image for card set in CSS! -->
+        </div>
+        <div class="card-body">
+          <i class="fas fa-cloud"></i><br><br>
+          <p class="greycolor">Failure to thrive-not gaining weight and height as per the age norms</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-xl-3 mx-auto">
+      <div class="card card-signin1 flex-row my-5">
+        <div class="card-img-left d-none d-md-flex">
+           <!-- Background image for card set in CSS! -->
+        </div>
+        <div class="card-body">
+          <i class="fas fa-cloud"></i><br><br>
+          <p class="greycolor">Failure to thrive-not gaining weight and height as per the age norms</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h3 class="colorBlue">What are the conditions that requireBone Marrow Transplant?<a href="#">
+        <span class="glyphicon glyphicon-triangle-bottom"></span>
+      </a></h3>
+      <p><h6 class="text-center" style="border: 1px solid #d7e4f3; width: 100%;"> </h6></p>
+      <p class="greycolor">BMT is the treatment of choice for blood disorders like Thalassemia, Sickle Cell anemia, bone marrow failure syndromes like Aplastic anemia, serious immune deficiencies and certain genetic metabolic disorders.</p>
+      <p class="greycolor">BMT is the treatment of choice for blood disorders like Thalassemia, Sickle Cell anemia, bone marrow failure syndromes like Aplastic anemia, serious immune deficiencies and certain genetic metabolic disorders.</p>
+     
+      <p><h6 class="text-center" style="border: 1px solid #d7e4f3; width: 100%; line-height: 10px;"> </h6></p>
+      <h3 class="colorBlue height55px">Which are the hematological diseases that may benefit from bone marrow transplans?<a href="#">
+        <span class="glyphicon glyphicon-triangle-bottom"></span>
+      </a></h3>
+      <p><h6 class="text-center" style="border: 1px solid #d7e4f3; width: 100%; line-height: 10px;"> </h6></p>
+      <h3 class="colorBlue height55px">Which are the cancers that may benefit from bone marrow transplants?<a href="#">
+        <span class="glyphicon glyphicon-triangle-bottom"></span>
+      </a></h3>
+      <p><h6 class="text-center" style="border: 1px solid #d7e4f3; width: 100%; line-height: 10px;"> </h6></p>
+      <h3 class="colorBlue height55px">What are the conditions that requireBone Marrow Transplant?<a href="#">
+        <span class="glyphicon glyphicon-triangle-bottom"></span>
+      </a></h3>
+      <p><h6 class="text-center" style="border: 1px solid #d7e4f3; width: 100%; line-height: 10px;"> </h6></p>
+      <h3 class="colorBlue height55px">What are the conditions that requireBone Marrow Transplant?<a href="#">
+        <span class="glyphicon glyphicon-triangle-bottom"></span>
+      </a></h3>
+      <p><h6 class="text-center" style="border: 1px solid #d7e4f3; width: 100%; line-height: 10px;"> </h6></p>
+      <h3 class="colorBlue height55px">What are the conditions that requireBone Marrow Transplant?<a href="#">
+        <span class="glyphicon glyphicon-triangle-bottom"></span>
+      </a></h3>
+      <p><h6 class="text-center" style="border: 1px solid #d7e4f3; width: 100%; line-height: 10px;"> </h6></p>
+    </div>
+  </div>
+</div>
+<div class="container">&nbsp;</div>
+<div class="container"> 
+  <div class="row">
+    <div class="col-lg-12 col-xl-9">
+    <div class=" text-left doctor">Testimonials</div><br>
+      <h6 class="greycolor">It is a long established fact that a reader will be  distracted by the readable content of a page when looking at it's layout.</h6></div>
+  </div> 
+
+</div>
+
+
+<!-- <div class="container">
+  <h1>About Me</h1>
+  <div class="row">
+      <div class="col-md-12">
+          <img style='float:left;width:200px;height:200px; margin-right:10px;' src="img/me.jpg" />
+          <p>Lots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, your columns don't clear quite right as one is taller than the other. To fix that, use a combination of a .clearfix and o</p>
+      </div>
+  </div> -->
+
+<div class="container my-4">
+
+<hr class="mb-5"/>
+
+  <!--Grid row-->
+  <div class="row ">
+
+    <!--Grid column-->
+    <div class="col-md-6 mb-4 flex-row shadow p-3 mb-5 bg-body rounded">
+      <div>
+      <img class="rounded-circle" style="width:105px;float:left;margin-right:20px;" alt="100x100" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+        data-holder-rendered="true">
+        <h3 class="blackcolor">  John Doe</h3>
+      <p>Software Engineer</p>
+    </div>
+    <h6>It is a long established fact that a reader will be distracted by the  readable content of a page  when looking at it's layout </h6>
+    </div>
+    
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-md-6 mb-4 flex-row shadow p-3 mb-5 bg-body rounded">
+      <div>
+        <img class="rounded-circle" style="width:105px;float:left;margin-right:20px;" alt="100x100" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg"
+          data-holder-rendered="true">
+          <h3 class="blackcolor">John Doe</h3>
+        <p>Software Engineer</p>
+      </div>
+      <h6>It is a long established fact that a reader will be distracted by the  readable content of a page  when looking at it's layout </h6>
+
+    </div>
+
+    <!--Grid column-->
+
+  </div>
+  <!--Grid row-->
+
+</div>
+<div class="container text-center">
+  <div class="row  width210px">
+    <div class="col-md-6 mb-4 width465px">
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Book an Appoinment</button></div>
+  </div>
+</div>
+
+<footer class="page-footer font-small special-color-dark pt-4">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+
+
+</body>
+</html>
